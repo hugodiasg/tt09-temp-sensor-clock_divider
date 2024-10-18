@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1729283362
+timestamp 1729284179
 << viali >>
 rect 7665 23273 7699 23307
 rect 11069 23205 11103 23239
@@ -36127,8 +36127,6 @@ rlabel metal1 4738 14824 4738 14824 0 true_scale\[6\]
 rlabel metal1 5474 12410 5474 12410 0 true_scale\[7\]
 rlabel metal1 6072 12954 6072 12954 0 true_scale\[8\]
 rlabel metal1 7130 12342 7130 12342 0 true_scale\[9\]
-flabel metal4 3760 23520 3860 23600 0 FreeSans 320 0 0 0 VPWR
-flabel metal4 4420 360 4520 420 0 FreeSans 320 0 0 0 VGND
 << properties >>
 string FIXED_BBOX 0 0 24000 24000
 << end >>
