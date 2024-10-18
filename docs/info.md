@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The PTAT sensor allows temperature detection. It sends a voltage value `vts` to its output, which is buffered `out_buff`. Next, there is a Mixed-Signal Σ − ∆ block to convert the voltage value into digital pulses through sigma- delta modulation on `out` .
 
 ## How to test
 
-Explain how to use your project
+Measure the temperature of the environment and measure the voltage coming out of the buffer `out_buff` at some temperature values to calibrate the sensor and find the linear equation. Observe the pulses being modulated at the output `out`.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Measure the temperature of the environment and measure the voltage coming out of the buffer `out_buff` at some temperature values to calibrate the sensor and find the linear equation. Observe the pulses being modulated at the output `out`.
+
