@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1729274075
+timestamp 1729277653
 << metal1 >>
 rect 5910 44690 5966 44720
 rect 5896 44626 5906 44690
@@ -766,7 +766,7 @@ timestamp 1699935153
 transform 1 0 3920 0 1 14000
 box -660 -2500 3580 3000
 use sigma-delta  sigma-delta_0 /foss/designs/tt09-temp-sensor-clock_divider/mag/temp-sensor/sigma-delta_modulator/mag
-timestamp 1707921015
+timestamp 1723764345
 transform 1 0 17340 0 1 11220
 box -3180 -520 12140 5420
 << labels >>
