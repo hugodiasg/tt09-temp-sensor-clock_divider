@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_hugodiasg_temp-sensor_clock-divider
+MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   CLASS BLOCK ;
-  FOREIGN tt_um_hugodiasg_temp-sensor_clock-divider ;
+  FOREIGN tt_um_hugodiasg_temp_sensor_clock_divider ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -516,6 +516,6 @@ MACRO tt_um_hugodiasg_temp-sensor_clock-divider
         RECT 114.470 1.000 132.090 1.400 ;
         RECT 133.790 1.000 151.410 1.400 ;
   END
-END tt_um_hugodiasg_temp-sensor_clock-divider
+END tt_um_hugodiasg_temp_sensor_clock_divider
 END LIBRARY
 
