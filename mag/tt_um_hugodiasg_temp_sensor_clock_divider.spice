@@ -2495,7 +2495,7 @@ Xsky130_fd_pr__cap_mim_m3_1_A4KLY5_0 in_comp gnd sky130_fd_pr__cap_mim_m3_1_A4KL
 Xsky130_fd_pr__cap_mim_m3_1_A4KLY5_1 in_int gnd sky130_fd_pr__cap_mim_m3_1_A4KLY5
 .ends
 
-.subckt tt_um_hugodiasg_temp-sensor_clock-divider clk ena rst_n ua[0] ua[1] ua[2]
+.subckt tt_um_hugodiasg_temp_sensor_clock_divider clk ena rst_n ua[0] ua[1] ua[2]
 + ua[3] ua[4] ua[5] ua[6] ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5]
 + ui_in[6] ui_in[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6]
 + uio_in[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6]
