@@ -10,7 +10,7 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.285000 ;
+    ANTENNAGATEAREA 0.372000 ;
     PORT
       LAYER met4 ;
         RECT 143.830 224.760 144.130 225.760 ;
@@ -118,7 +118,7 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.213000 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met4 ;
         RECT 135.550 224.760 135.850 225.760 ;
@@ -127,7 +127,7 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.213000 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met4 ;
         RECT 132.790 224.760 133.090 225.760 ;
@@ -136,7 +136,7 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.426000 ;
+    ANTENNAGATEAREA 0.213000 ;
     PORT
       LAYER met4 ;
         RECT 130.030 224.760 130.330 225.760 ;
@@ -373,7 +373,7 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN uo_out[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.795200 ;
+    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met4 ;
         RECT 94.150 224.760 94.450 225.760 ;
@@ -453,8 +453,10 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
     END
   END VGND
   OBS
+      LAYER nwell ;
+        RECT 14.900 30.500 138.260 213.865 ;
       LAYER li1 ;
-        RECT 15.215 30.715 138.020 213.945 ;
+        RECT 15.215 30.715 138.070 213.865 ;
       LAYER met1 ;
         RECT 1.000 11.200 138.670 223.600 ;
       LAYER met2 ;

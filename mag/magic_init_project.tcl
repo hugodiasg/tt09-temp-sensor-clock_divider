@@ -8,7 +8,7 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     tt_um_hugodiasg_temp-sensor_clock-divider
+set TOP_LEVEL_CELL     tt_um_hugodiasg_temp_sensor_clock_divider
 set TEMPLATE_FILE      tt_analog_1x2.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
