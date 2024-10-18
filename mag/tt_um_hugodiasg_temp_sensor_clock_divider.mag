@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1729285697
+timestamp 1729286459
 << metal1 >>
 rect 5910 44690 5966 44720
 rect 5896 44626 5906 44690
@@ -759,8 +759,8 @@ timestamp 1707919911
 transform 1 0 1840 0 1 3980
 box 900 -1720 7760 5820
 use clock_divider  clock_divider_0 /foss/designs/tt09-temp-sensor-clock_divider/mag/clock-divider/mag
-timestamp 1729285596
-transform 1 0 4226 0 1 19344
+timestamp 1729286459
+transform 1 0 4226 0 1 19324
 box 514 496 24000 24000
 use sensor  sensor_0 /foss/designs/tt09-temp-sensor-clock_divider/mag/temp-sensor/sensor/mag
 timestamp 1699935153
