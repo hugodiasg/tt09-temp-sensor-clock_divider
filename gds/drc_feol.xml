@@ -3,7 +3,7 @@
  <description>SKY130 DRC runset</description>
  <original-file/>
  <generator>drc: script='tech-files/sky130A_mr.drc'</generator>
- <top-cell>tt_um_zec_square1</top-cell>
+ <top-cell>tt_um_hugodiasg_temp_sensor_clock_divider</top-cell>
  <tags>
  </tags>
  <categories>
@@ -98,6 +98,12 @@
    </categories>
   </category>
   <category>
+   <name>MR_lvtn.OVL.2</name>
+   <description>MR_lvtn.OVL.2 : lvtn must not straddle nwell</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>ncm.1</name>
    <description>ncm.1 : min. ncm width : 0.38um</description>
    <categories>
@@ -158,6 +164,12 @@
    </categories>
   </category>
   <category>
+   <name>MR_tunm.CON.1</name>
+   <description>MR_tunm.CON.1 : use of layer tunm is prohibited</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>thkox.1</name>
    <description>thkox.1 : min. thkox width inside periphery : 0.6um</description>
    <categories>
@@ -166,6 +178,12 @@
   <category>
    <name>thkox.2</name>
    <description>thkox.2 : min. thkox spacing inside periphery : 0.7um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_thkox.CON.1</name>
+   <description>MR_thkox.CON.1 : thkox must not straddle diff</description>
    <categories>
    </categories>
   </category>
@@ -208,6 +226,24 @@
   <category>
    <name>rpm.2</name>
    <description>rpm.2 : min. rpm spacing : 0.84um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rdl.1</name>
+   <description>rdl.1 : min. rdl width : 10um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rdl.2</name>
+   <description>rdl.2 : min. rdl spacing : 10um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_rdl.CON.1</name>
+   <description>MR_rdl.CON.1 : use of rdl layer is prohibited</description>
    <categories>
    </categories>
   </category>
@@ -326,38 +362,38 @@
    </categories>
   </category>
   <category>
+   <name>licon.1_c</name>
+   <description>licon.1_c : licon should be rectangle</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_licon.SP.1</name>
+   <description>MR_licon.SP.1: min. licon spacing in periphery : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>licon.1</name>
-   <description>licon.1 : licon should be rectangle</description>
+   <description>licon.1: min/max. licon length : 0.17um</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>licon.2</name>
-   <description>licon.2: min. licon spacing in periphery : 0.17um</description>
+   <name>licon.13</name>
+   <description>licon.13:  min. licon on diff spacing to npc in periphery : 0.09um</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>licon.3</name>
-   <description>licon.3: min. licon width : 0.17um</description>
+   <name>licon.13_a</name>
+   <description>licon.13_a:  licon on diff in periphery can't overlap npc</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>licon.4</name>
-   <description>licon.4:  min. licon on diff spacing to npc in periphery : 0.09um</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>licon.4_a</name>
-   <description>licon.4_a:  licon on diff in periphery can't overlap npc</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>licon.5</name>
-   <description>licon.5 : Licons may not overlap both poly and (diff or tap)</description>
+   <name>licon.17</name>
+   <description>licon.17 : Licons may not overlap both poly and (diff or tap)</description>
    <categories>
    </categories>
   </category>
@@ -514,33 +550,76 @@
  </categories>
  <cells>
   <cell>
-   <name>tt_um_zec_square1</name>
+   <name>tt_um_hugodiasg_temp_sensor_clock_divider</name>
    <variant/>
    <references>
+   </references>
+  </cell>
+  <cell>
+   <name>clock_divider</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>tt_um_hugodiasg_temp_sensor_clock_divider</parent>
+     <trans>r0 *1 21.23,96.82</trans>
+    </ref>
    </references>
   </cell>
  </cells>
  <items>
   <item>
    <tags/>
-   <category>'npc.2'</category>
-   <cell>tt_um_zec_square1</cell>
+   <category>'nsdm.1'</category>
+   <cell>clock_divider</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (71.095,213.975;71.095,214.224)|(70.84,214.135;70.84,213.975)</value>
+    <value>edge-pair: (41.86,111.71;41.86,111.948)|(41.56,111.715;41.56,111.71)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'npc.2'</category>
-   <cell>tt_um_zec_square1</cell>
+   <category>'nsdm.1'</category>
+   <cell>clock_divider</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (31.535,219.415;31.535,219.664)|(31.28,219.575;31.28,219.415)</value>
+    <value>edge-pair: (28.98,35.059;28.98,35.17)|(28.615,35.17;28.615,35.165)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'psdm.1'</category>
+   <cell>clock_divider</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (75.935,38.525;76.27,38.525)|(76.61,38.695;75.935,38.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'psdm.1'</category>
+   <cell>clock_divider</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (52.015,33.085;52.295,33.085)|(52.635,33.255;52.015,33.255)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'psdm.1'</category>
+   <cell>clock_divider</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (80.115,70.91;80.115,70.915)|(80.04,71.288;80.04,70.91)</value>
    </values>
   </item>
  </items>
