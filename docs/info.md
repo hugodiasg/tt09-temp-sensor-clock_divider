@@ -11,12 +11,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ### Temperature Sensor
 
-![temp-sensor](https://github.com/user-attachments/assets/0490bdac-2320-46e7-90c4-0c3018b3db76)
+![temp-sensor](https://github.com/user-attachments/assets/d4d6fcf0-4921-4ebf-bf97-3dc0383936e8)
 
-*All the blocks are separated and can be used together or isolated.
+*The blocks can be used together or separated.
 
-- PTAT: sensor allows temperature detection. It sends a voltage value `vts` to its output proportional to the temperature.
-- Buffer: copy the `in_buff` voltage to the `out_buff` (`ib ≈ 20 uA`).
+- PTAT+Buffer: sensor allows temperature detection. It sends a voltage `vts_in_buff` to proportional to the temperature and this is followed by the Buffer (`ib ≈ 20 uA`) in `out_buff`.
 - Σ∆: convert the `in_sigma` into digital pulses through sigma- delta modulation on `out_sigma`. 
 
 ### Clock Divider
@@ -29,8 +28,7 @@ It receives a byte at its input (scale {ui_in[7:0]}), calculates true_scale = sc
 
 ### Temperature Sensor
 
-- PTAT: Measure the temperature of the environment and measure the voltage coming out of vts.
-- Buffer: apply `in_buff` voltage to see its copy on `out_buff` (`ib ≈ 20 uA`).
+- PTAT + Buffer: Measure the temperature of the environment and measure the voltage coming out of vts and its copy `out_buff` (`ib ≈ 20 uA`).
 - Σ∆: change the `in_sigma` voltage and see the changing in the patterns of the pulses in `out_sigma`. 
 
 ### Clock Divider
@@ -44,8 +42,7 @@ It receives a byte at its input (scale {ui_in[7:0]}), calculates true_scale = sc
 
 ### Temperature Sensor
 
-- PTAT: A chamber or simillar stuff to control the temperature, oscilloscope and sources.
-- Buffer: Oscilloscope and sources.
+- PTAT + Buffer: A chamber or simillar stuff to control the temperature, oscilloscope and sources.
 - Σ∆: Oscilloscope and sources.
 
 ### Clock Divider
