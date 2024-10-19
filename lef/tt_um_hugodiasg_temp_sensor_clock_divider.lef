@@ -64,7 +64,8 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ua[3]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.225000 ;
+    ANTENNAGATEAREA 4.225000 ;
+    ANTENNADIFFAREA 12.156000 ;
     PORT
       LAYER met4 ;
         RECT 93.850 0.000 94.750 1.000 ;
@@ -73,8 +74,6 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ua[4]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 4.000000 ;
-    ANTENNADIFFAREA 12.156000 ;
     PORT
       LAYER met4 ;
         RECT 74.530 0.000 75.430 1.000 ;
@@ -83,8 +82,6 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
   PIN ua[5]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 36.000000 ;
-    ANTENNADIFFAREA 5.220000 ;
     PORT
       LAYER met4 ;
         RECT 55.210 0.000 56.110 1.000 ;
@@ -460,9 +457,9 @@ MACRO tt_um_hugodiasg_temp_sensor_clock_divider
       LAYER met1 ;
         RECT 1.000 11.200 138.670 223.600 ;
       LAYER met2 ;
-        RECT 1.100 4.550 142.545 224.520 ;
+        RECT 1.100 5.380 142.545 224.520 ;
       LAYER met3 ;
-        RECT 1.000 4.575 152.730 224.495 ;
+        RECT 1.000 5.380 152.730 224.495 ;
       LAYER met4 ;
         RECT 14.095 224.360 30.270 224.760 ;
         RECT 31.370 224.360 33.030 224.760 ;
