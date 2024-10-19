@@ -28,7 +28,7 @@ It receives a byte at its input (scale {ui_in[7:0]}), calculates true_scale = sc
 
 ### Temperature Sensor
 
-- PTAT + Buffer: Measure the temperature of the environment and measure the voltage coming out of vts and its copy `out_buff` (`ib ≈ 20 uA`).
+- PTAT + Buffer: Measure the temperature of the environment and measure the voltage coming out of `vts_in_buff` and its copy `out_buff` (`ib ≈ 20 uA`).
 - Σ∆: change the `in_sigma` voltage and see the changing in the patterns of the pulses in `out_sigma`. 
 
 ### Clock Divider
