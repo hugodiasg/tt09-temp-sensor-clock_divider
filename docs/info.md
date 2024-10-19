@@ -11,7 +11,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ### Temperature Sensor
 
-![temp-sensor](https://github.com/user-attachments/assets/d4d6fcf0-4921-4ebf-bf97-3dc0383936e8)
+![temp-sensor](https://github.com/user-attachments/assets/81f1226c-7c13-4739-9b15-b2781476511e)
 
 *The blocks can be used together or separated.
 
