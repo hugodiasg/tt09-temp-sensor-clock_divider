@@ -57,9 +57,9 @@ pinout:
   ua[0]: "in_sigma"
   ua[1]: "out_buff"
   ua[2]: "ib"
-  ua[3]: "in_buff"
-  ua[4]: "vts"
-  ua[5]: "vtd"
+  ua[3]: "vts_in_buff"
+  ua[4]: ""
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
