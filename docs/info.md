@@ -37,7 +37,7 @@ It receives a byte at its input (scale {ui_in[7:0]}), calculates true_scale = sc
 - Connect clk_in to a clock signal
 - Do the nrst to reset
 - Observe the clock signal with the frequency divided into clk_out
-- 
+
 ## External hardware
 
 ### Temperature Sensor
