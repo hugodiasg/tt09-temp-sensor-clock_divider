@@ -55,25 +55,25 @@ X7 a_487_n200# a_287_n297# a_229_n200# w_n1097_n300# sky130_fd_pr__pfet_01v8 ad=
 .subckt sensor vd vts vtd gnd
 Xsky130_fd_pr__pfet_01v8_FRXWNM_0 vd vd vd vd sky130_fd_pr__pfet_01v8_FRXWNM
 Xsky130_fd_pr__pfet_01v8_FRXWNM_1 vd vd vd vd sky130_fd_pr__pfet_01v8_FRXWNM
+Xsky130_fd_pr__pfet_01v8_FVXEPM_0 c c vd c sky130_fd_pr__pfet_01v8_FVXEPM
 Xsky130_fd_pr__pfet_01v8_FRXWNM_2 vd vd vd vd sky130_fd_pr__pfet_01v8_FRXWNM
 Xsky130_fd_pr__pfet_01v8_FRXWNM_3 vts vts vts vts sky130_fd_pr__pfet_01v8_FRXWNM
-Xsky130_fd_pr__pfet_01v8_FVXEPM_0 c c vd c sky130_fd_pr__pfet_01v8_FVXEPM
 Xsky130_fd_pr__pfet_01v8_FRXWNM_4 vts vts vts vts sky130_fd_pr__pfet_01v8_FRXWNM
 XXP1 a a a a vd vd sky130_fd_pr__pfet_01v8_FVTXNM
 XXP3 vtd d vd vd sky130_fd_pr__pfet_01v8_3HGYVM
 XXP4 vtd vd vd vts sky130_fd_pr__pfet_01v8_SKTYVM
 Xsky130_fd_pr__nfet_01v8_9VJR3B_0 gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd
 + gnd sky130_fd_pr__nfet_01v8_9VJR3B
-Xsky130_fd_pr__nfet_01v8_9VJR3B_1 gnd a gnd b a gnd a b b a gnd b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__nfet_01v8_9VJR3B_2 a gnd a b gnd a gnd b b gnd a b gnd sky130_fd_pr__nfet_01v8_9VJR3B
+Xsky130_fd_pr__nfet_01v8_9VJR3B_1 gnd a gnd b a gnd a b b a gnd b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__nfet_01v8_9VJR3B_3 gnd vtd gnd b vtd gnd vtd b b vtd gnd b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__nfet_01v8_9VJR3B_4 vtd gnd vtd b gnd vtd gnd b b gnd vtd b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__nfet_01v8_9VJR3B_5 gnd b gnd b b gnd b b b b gnd b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__nfet_01v8_9VJR3B_6 gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd gnd
 + gnd sky130_fd_pr__nfet_01v8_9VJR3B
-Xsky130_fd_pr__nfet_01v8_9VJR3B_7 b gnd b b gnd b gnd b b gnd b b gnd sky130_fd_pr__nfet_01v8_9VJR3B
-Xsky130_fd_pr__pfet_01v8_YAWWFM_0 a d vd a a d c a c c sky130_fd_pr__pfet_01v8_YAWWFM
 Xsky130_fd_pr__pfet_01v8_YAWWFM_1 vtd b vd vtd vtd b c vtd c c sky130_fd_pr__pfet_01v8_YAWWFM
+Xsky130_fd_pr__pfet_01v8_YAWWFM_0 a d vd a a d c a c c sky130_fd_pr__pfet_01v8_YAWWFM
+Xsky130_fd_pr__nfet_01v8_9VJR3B_7 b gnd b b gnd b gnd b b gnd b b gnd sky130_fd_pr__nfet_01v8_9VJR3B
 Xsky130_fd_pr__pfet_01v8_YAEUFM_0 vtd vts vtd vtd vts vtd vtd vtd vtd vts vtd vtd
 + vtd vtd vtd vtd vts vts sky130_fd_pr__pfet_01v8_YAEUFM
 .ends
